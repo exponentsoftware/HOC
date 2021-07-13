@@ -17,6 +17,11 @@ export default function CenteredGrid() {
       </Col>
       <Col>
         <Paper elevation={3} className={classes.paper}>
+          <Link to="noodles"><h2>Noodle</h2></Link>
+        </Paper>
+      </Col>
+      <Col>
+        <Paper elevation={3} className={classes.paper}>
           <Link to="chicken"><h2>Chicken</h2></Link>
         </Paper>
       </Col>

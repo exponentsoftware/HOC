@@ -6,6 +6,7 @@ import Egg from "./Pages/Egg";
 import vegetable from "./Pages/Vegetable"
 import Chicken from "./Pages/Chicken";
 import Pizza from "./Pages/Pizza";
+import Noodles from "./Pages/Noodles";
 function Content() {
   const classes = useStyles();
   return (
@@ -13,6 +14,7 @@ function Content() {
     <Paper className={classes.paper}>
       <Switch>
         <Route path="/egg" component={Egg} />
+        <Route path="/noodles" component={Noodles} />
         <Route path="/chicken" component={Chicken} />
         <Route path="/vegetable" component={vegetable} />
         <Route path="/pizza" component={Pizza} />
